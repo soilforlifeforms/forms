@@ -1,0 +1,11 @@
+<%= mxit_table_row :title %>
+<b>Step 1 of 1</b>
+
+<%= mxit_table_row %>
+<%= link_to 'Back', '/' %><br /><br />
+
+<% unless mxit_validation_message %>
+  You're visiting the templater-in-progress.  It's now <%= @time %>.<br /><br />
+  Please enter your cellphone number to proceed
+<% end %>
+

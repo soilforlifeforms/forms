@@ -1,0 +1,19 @@
+---
+applications:
+  .:
+    name: mxit-rails-master
+    framework:
+      name: standalone
+      info:
+        mem: 64M
+        description: Standalone Application
+        exec: 
+    runtime: ruby18
+    command: start
+    infra: aws
+    url: 
+    mem: '256'
+    instances: 1
+    services:
+      forms_database:
+        type: mysql
