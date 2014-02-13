@@ -65,14 +65,6 @@ ActiveRecord::Schema.define(:version => 20140211143587) do
     t.datetime "updated_at",     :null => false
   end
 
-  create_table "items", :force => true do |t|
-    t.string   "content"
-    t.integer  "priority"
-    t.date     "date"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "question_groups", :force => true do |t|
     t.text     "text"
     t.text     "help_text"
@@ -193,11 +185,6 @@ ActiveRecord::Schema.define(:version => 20140211143587) do
 
   add_index "surveys", ["access_code", "survey_version"], :name => "surveys_access_code_version_idx", :unique => true
   add_index "surveys", ["api_id"], :name => "uq_surveys_api_id", :unique => true
-
-  create_table "trainers", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
 
   create_table "validation_conditions", :force => true do |t|
     t.integer  "validation_id"
