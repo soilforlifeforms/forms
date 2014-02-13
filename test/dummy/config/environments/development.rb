@@ -18,6 +18,10 @@ Dummy::Application.configure do
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
+  
+  #line added by admin for use of surveyor gem
+  config.gem "surveyor"
+   #, version: => ">-0.6.7", :source => "http://gemcutter.org"
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin

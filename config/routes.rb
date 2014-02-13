@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  mount Surveyor::Engine => "/surveys", :as => "surveyor"
+
   #root "welcome#{index}"
   get "welcome/index"
 

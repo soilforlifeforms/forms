@@ -3,7 +3,7 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'mysql2'
-gem 'pg'
+#gem 'pg'
 
 development:
   adapter: postgresql

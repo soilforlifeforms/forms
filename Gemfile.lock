@@ -81,8 +81,8 @@ GEM
     mime-types (1.25.1)
     multi_json (1.8.4)
     mustache (0.99.4)
+    mysql2 (0.3.15)
     netrc (0.7.7)
-    pg (0.17.1)
     polyglot (0.3.3)
     rabl (0.6.14)
       activesupport (>= 2.3.14)
@@ -158,7 +158,7 @@ DEPENDENCIES
   heroku
   jquery-rails
   mxit-rails!
-  pg
+  mysql2
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
   sqlite3

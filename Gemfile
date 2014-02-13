@@ -4,6 +4,7 @@ source "http://rubygems.org"
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
+
 gem "surveyor"
 
 #require 'mongo'
@@ -11,7 +12,7 @@ gem "surveyor"
 
 gem 'rails', '3.2.8'
 
-gem 'pg'
+gem 'mysql2'
 
 #gem "mongo_mapper"
 
@@ -21,11 +22,11 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Using sqlite for development.  Obviously not a great idea in the real world
 group :development, :test do
- gem 'pg'
+ gem 'mysql2'
  #gem 'activerecord-mysql2-adapter'
 end
 group :production do
-  gem 'pg'
+  gem 'mysql2'
 end
 
 # Gems used only for assets and not required
