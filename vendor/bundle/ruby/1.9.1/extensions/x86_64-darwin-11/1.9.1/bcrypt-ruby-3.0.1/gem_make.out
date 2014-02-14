@@ -1,0 +1,26 @@
+/Users/samanthajones/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling bcrypt_ext.c
+bcrypt_ext.c: In function ‘bcrypt_wrapper’:
+bcrypt_ext.c:27: warning: implicit declaration of function ‘ruby_bcrypt’
+bcrypt_ext.c: In function ‘bc_salt’:
+bcrypt_ext.c:42: warning: implicit conversion shortens 64-bit value into a 32-bit value
+bcrypt_ext.c: At top level:
+bcrypt_ext.c:25: warning: ‘bcrypt_wrapper’ defined but not used
+compiling crypt.c
+crypt.c: In function ‘crypt_salt’:
+crypt.c:15: warning: implicit conversion shortens 64-bit value into a 32-bit value
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+In file included from wrapper.c:27:
+/Users/samanthajones/.rvm/rubies/ruby-1.9.3-p484/include/ruby-1.9.1/ruby/backward/util.h:2:2: warning: #warning use "ruby/util.h" instead of bare "util.h"
+linking shared-object bcrypt_ext.bundle
+
+make  install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle /Users/samanthajones/Documents/Ryan_ROR/mxit-rails-master/vendor/bundle/ruby/1.9.1/gems/bcrypt-ruby-3.0.1/ext/mri/.gem.20140214-40971-1btb6x1
+installing default bcrypt_ext libraries

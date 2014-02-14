@@ -1,0 +1,19 @@
+/Users/samanthajones/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for mysql_ssl_set()... yes
+checking for rb_str_set_len()... yes
+checking for rb_thread_start_timer()... no
+checking for mysql.h... yes
+extconf.rb:67:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+extconf.rb:67:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling mysql.c
+linking shared-object mysql_api.bundle
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 mysql_api.bundle ./.gem.20140214-14697-11oyow5
+installing default mysql_api libraries

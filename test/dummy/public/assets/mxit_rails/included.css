@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: normal; }
+
+.emulator td {
+  padding: 2px; }
+
+.emulator form {
+  display: none; }
+
+.emulator .emoticon {
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-indent: 100px;
+  overflow: hidden; }
+  .emulator .emoticon.happy {
+    background-position: 0px 0px; }
+  .emulator .emoticon.sad {
+    background-position: -32px 0px; }
+  .emulator .emoticon.winking {
+    background-position: -64px 0px; }
+  .emulator .emoticon.excited {
+    background-position: -96px 0px; }
+  .emulator .emoticon.shocked {
+    background-position: -128px 0px; }
+  .emulator .emoticon.surprised {
+    background-position: -160px 0px; }
+  .emulator .emoticon.tongue_out {
+    background-position: -192px 0px; }
+  .emulator .emoticon.embarrassed {
+    background-position: -224px 0px; }
+  .emulator .emoticon.cool {
+    background-position: -256px 0px; }
+  .emulator .emoticon.heart {
+    background-position: -288px 0px; }
+  .emulator .emoticon.flower {
+    background-position: -320px 0px; }
+  .emulator .emoticon.male {
+    background-position: -352px 0px; }
+  .emulator .emoticon.female {
+    background-position: -384px 0px; }
+  .emulator .emoticon.star {
+    background-position: -416px 0px; }
+  .emulator .emoticon.chilli {
+    background-position: -448px 0px; }
+  .emulator .emoticon.kiss {
+    background-position: -480px 0px; }
+  .emulator .emoticon.idea {
+    background-position: -512px 0px; }
+  .emulator .emoticon.extremely_angry {
+    background-position: -544px 0px; }
+  .emulator .emoticon.censored {
+    background-position: -576px 0px; }
+  .emulator .emoticon.grumpy {
+    background-position: -608px 0px; }
+  .emulator .emoticon.coffee {
+    background-position: -640px 0px; }
+  .emulator .emoticon.mr_green {
+    background-position: -672px 0px; }
+  .emulator .emoticon.sick {
+    background-position: -704px 0px; }
+  .emulator .emoticon.wtf {
+    background-position: -736px 0px; }
+  .emulator .emoticon.in_love {
+    background-position: -768px 0px; }
+  .emulator .emoticon.rolling_eyes {
+    background-position: -800px 0px; }
+  .emulator .emoticon.crying {
+    background-position: -832px 0px; }
+  .emulator .emoticon.thinking {
+    background-position: -864px 0px; }
+  .emulator .emoticon.drooling {
+    background-position: -896px 0px; }
+  .emulator .emoticon.sleepy {
+    background-position: -928px 0px; }
+  .emulator .emoticon.liar {
+    background-position: -960px 0px; }
+  .emulator .emoticon.nerdy {
+    background-position: -992px 0px; }
+  .emulator .emoticon.pirate {
+    background-position: -1024px 0px; }
+  .emulator .emoticon.bored {
+    background-position: -1056px 0px; }
+  .emulator .emoticon.cold {
+    background-position: -1088px 0px; }
+  .emulator .emoticon.confused {
+    background-position: -1120px 0px; }
+  .emulator .emoticon.hungry {
+    background-position: -1152px 0px; }
+  .emulator .emoticon.stressed {
+    background-position: -1184px 0px; }

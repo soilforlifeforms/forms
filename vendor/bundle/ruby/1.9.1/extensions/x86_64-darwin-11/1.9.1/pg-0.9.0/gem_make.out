@@ -1,0 +1,106 @@
+/Users/samanthajones/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb 
+checking for pg_config... yes
+MacOS X build: fixing architecture flags:
+  finding flags common to both Ruby and PostgreSQL...
+extconf.rb:47: Use RbConfig instead of obsolete and deprecated Config.
+  testing for architecture: ["x86_64"]
+  testing for architecture: ["i386"]
+  common arch flags: 
+checking for libpq-fe.h... yes
+checking for libpq/libpq-fs.h... yes
+checking for PQconnectdb() in -lpq... yes
+checking for PQconnectionUsedPassword()... yes
+checking for PQisthreadsafe()... yes
+checking for PQprepare()... yes
+checking for PQexecParams()... yes
+checking for PQescapeString()... yes
+checking for PQescapeStringConn()... yes
+checking for lo_create()... yes
+checking for pg_encoding_to_char()... yes
+checking for PQsetClientEncoding()... yes
+checking for unistd.h... yes
+creating extconf.h
+creating Makefile
+
+make  clean
+
+make
+compiling compat.c
+compiling pg.c
+pg.c: In function ‘pgconn_s_quote_connstr’:
+pg.c:88: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘parse_connect_args’:
+pg.c:250: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:252: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:254: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:256: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:258: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:260: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:262: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:264: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:266: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:268: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:270: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:272: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:274: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:285: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:286: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:287: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:288: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:289: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:290: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:291: warning: passing argument 2 of ‘build_key_value_string’ discards qualifiers from pointer target type
+pg.c:238: warning: unused parameter ‘self’
+pg.c: In function ‘pgconn_s_conndefaults’:
+pg.c:486: warning: unused parameter ‘self’
+pg.c: In function ‘pgconn_s_encrypt_password’:
+pg.c:534: warning: unused parameter ‘self’
+pg.c: In function ‘pgconn_s_isthreadsafe’:
+pg.c:560: warning: unused parameter ‘self’
+pg.c: In function ‘pgconn_exec’:
+pg.c:1021: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c:1060: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_prepare’:
+pg.c:1126: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_exec_prepared’:
+pg.c:1217: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c:1247: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_s_escape’:
+pg.c:1392: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c:1399: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_s_unescape_bytea’:
+pg.c:1476: warning: unused parameter ‘self’
+pg.c: In function ‘pgconn_send_query’:
+pg.c:1573: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c:1612: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_send_prepare’:
+pg.c:1677: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_send_query_prepared’:
+pg.c:1766: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c:1797: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_wait_for_notify’:
+pg.c:2123: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c:2129: warning: ‘rb_thread_select’ is deprecated (declared at /Users/samanthajones/.rvm/rubies/ruby-1.9.3-p484/include/ruby-1.9.1/ruby/intern.h:390)
+pg.c: In function ‘pgconn_put_copy_data’:
+pg.c:2173: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘pgconn_s_quote_ident’:
+pg.c:2524: warning: unused parameter ‘self’
+pg.c: In function ‘pgconn_block’:
+pg.c:2588: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c:2597: warning: ‘rb_thread_select’ is deprecated (declared at /Users/samanthajones/.rvm/rubies/ruby-1.9.3-p484/include/ruby-1.9.1/ruby/intern.h:390)
+pg.c: In function ‘pgconn_locreate’:
+pg.c:2728: warning: implicit conversion shortens 64-bit value into a 32-bit value
+pg.c: In function ‘find_or_create_johab’:
+pg.c:3705: warning: comparison between signed and unsigned
+pg.c:3711: warning: comparison between signed and unsigned
+pg.c: In function ‘pgconn_get_client_encoding_as_rb_encoding’:
+pg.c:3739: warning: comparison between signed and unsigned
+pg.c: In function ‘pgconn_internal_encoding_set’:
+pg.c:3806: warning: comparison between signed and unsigned
+pg.c: In function ‘pgconn_external_encoding’:
+pg.c:3862: warning: comparison between signed and unsigned
+linking shared-object pg_ext.bundle
+
+make  install
+/usr/bin/install -c -m 0755 pg_ext.bundle /Users/samanthajones/Documents/Ryan_ROR/mxit-rails-master/vendor/bundle/ruby/1.9.1/gems/pg-0.9.0/ext/.gem.20140214-40971-1nt8ced
+installing default pg_ext libraries

@@ -1,0 +1,25 @@
+/Users/samanthajones/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb 
+checking for mysql_ssl_set()... yes
+checking for rb_str_set_len()... yes
+checking for rb_thread_start_timer()... no
+checking for mysql.h... yes
+extconf.rb:67: Use RbConfig instead of obsolete and deprecated Config.
+creating Makefile
+
+make  clean
+
+make
+compiling mysql.c
+mysql.c: In function ‘list_dbs’:
+mysql.c:588: warning: implicit conversion shortens 64-bit value into a 32-bit value
+mysql.c: In function ‘list_tables’:
+mysql.c:633: warning: implicit conversion shortens 64-bit value into a 32-bit value
+mysql.c: In function ‘fetch_hash2’:
+mysql.c:1068: warning: implicit conversion shortens 64-bit value into a 32-bit value
+mysql.c: In function ‘stmt_prepare’:
+mysql.c:1661: warning: implicit conversion shortens 64-bit value into a 32-bit value
+linking shared-object mysql_api.bundle
+
+make  install
+/usr/bin/install -c -m 0755 mysql_api.bundle /Users/samanthajones/Documents/Ryan_ROR/mxit-rails-master/vendor/bundle/ruby/1.9.1/gems/mysql-2.8.1/ext/mysql_api/.gem.20140214-40971-1nqphy3
+installing default mysql_api libraries

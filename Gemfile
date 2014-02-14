@@ -14,6 +14,7 @@ gem 'rails', '3.2.8'
 
 gem 'mysql2'
 
+
 #gem "mongo_mapper"
 
 gem 'heroku'
@@ -44,7 +45,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+#gem 'jquery-rails'
+gem 'cloudfoundry-jquery-rails'
 
 #gem 'mxit-rails'
 
@@ -70,4 +72,4 @@ gem 'thin'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-ruby "2.0.0"
+ruby "1.9.3"

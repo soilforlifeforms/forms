@@ -1,0 +1,31 @@
+/Users/samanthajones/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb 
+checking for ruby/thread.h... no
+checking for rb_thread_blocking_region()... yes
+checking for rb_wait_for_single_fd()... yes
+checking for rb_hash_dup()... yes
+checking for rb_intern3()... yes
+-----
+Using mysql_config at /usr/local/bin/mysql_config
+-----
+checking for mysql.h... yes
+checking for errmsg.h... yes
+checking for mysqld_error.h... yes
+-----
+Setting rpath to /usr/local/Cellar/mysql/5.6.16/lib
+-----
+creating Makefile
+
+make  clean
+
+make
+compiling client.c
+client.c: In function ‘set_charset_name’:
+client.c:1080: warning: implicit conversion shortens 64-bit value into a 32-bit value
+compiling infile.c
+compiling mysql2_ext.c
+compiling result.c
+linking shared-object mysql2/mysql2.bundle
+
+make  install
+/usr/bin/install -c -m 0755 mysql2.bundle /Users/samanthajones/Documents/Ryan_ROR/mxit-rails-master/vendor/bundle/ruby/1.9.1/gems/mysql2-0.3.15/ext/mysql2/.gem.20140214-40971-xc8n36/mysql2
+installing default mysql2 libraries
