@@ -17,7 +17,7 @@
   #socket: /tmp/mysql.sock
  
   #username: mxitapp
-  #password: Forgiven7
+  #password: XXXXX
   #pool: 5
  # socket: /tmp/mysql.sock
 
@@ -30,7 +30,7 @@
   database: mxit_app_test
   pool: 5
   username: sfladmin
-  password: Forgiven7
+  password: XXXXXX
   #host: 127.0.0.1
  # socket: /tmp/mysql.sock
 
@@ -40,6 +40,6 @@
   database: mxit_app_production
   pool: 5
   username: sfladmin
-  password: Forgiven7
+  password: XXXXXX
   #socket: /tmp/mysql.sock
   
