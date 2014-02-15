@@ -24,21 +24,25 @@
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
- #4test:
-  #adapter: postgresql
- # encoding: utf8
- # database: mxit_app_test
-  #pool: 5
- # username: sfladmin
- # password: Forgiven7
-  #host: 127.0.0.1
- # socket: /tmp/mysql.sock
+ test:
+  adapter: postgresql
+  encoding: utf8
+  database: mxit_app_test
+  pool: 5
+  username: sfladmin
+  password: Forgiven7
+  host: 127.0.0.1
+  #socket: /tmp/mysql.sock
 
-# production:
-  #adapter: postgresql
-  #encoding: utf8
- # database: mxit_app_production
- # pool: 5
+ production:
+  adapter: postgresql
+  encoding: utf8
+  database: desmevjohug1g6
+  user: lbvltvnswnpkiu
+  port:5432
+  Password: U6tyPNjrvLt9ZbkJtdsreZJS3O
+  pool: 5
+  host: ec2-54-197-251-18.compute-1.amazonaws.com
  # password: 
   #socket: /tmp/mysql.sock
   
