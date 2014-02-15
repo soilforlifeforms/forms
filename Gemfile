@@ -21,18 +21,6 @@ gem 'heroku'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 
-# Using sqlite for development.  Obviously not a great idea in the real world
-#group :development, :test 
- #gem 'pg'
- #gem 'activerecord-mysql2-adapter'
-#end
-
-#group :production do
-#  gem 'pg'
-#end
-
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
