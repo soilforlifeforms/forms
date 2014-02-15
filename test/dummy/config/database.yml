@@ -4,7 +4,7 @@
   database: mxit_app_development
   #Username: sfladmin
   pool: 5
-  password: 
+  password: Forgiven7
   #host: 127.0.0.1
 
 #development:
@@ -39,8 +39,8 @@
   encoding: utf8
   database: desmevjohug1g6
   user: lbvltvnswnpkiu
-  port: 5432
   Password: U6tyPNjrvLt9ZbkJtdsreZJS3O
+  port: 5432
   pool: 5
   host: ec2-54-197-251-18.compute-1.amazonaws.com
  # password: 
