@@ -19,8 +19,3 @@ Dummy::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
-
-  #line added by admin for use of surveyor gem
-  config.gem "surveyor
-
- 
