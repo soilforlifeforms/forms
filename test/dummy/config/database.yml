@@ -4,8 +4,8 @@
   database: mxit_app_development
   #Username: sfladmin
   pool: 5
-  password: Forgiven7
-  #host: 127.0.0.1
+ # password: Forgiven7
+  host: 127.0.0.1
 
 #development:
   #adapter: pg
@@ -29,8 +29,8 @@
   encoding: utf8
   database: mxit_app_test
   pool: 5
-  username: sfladmin
-  password: Forgiven7
+  #username: sfladmin
+  #password: Forgiven7
   host: 127.0.0.1
   #socket: /tmp/mysql.sock
 
