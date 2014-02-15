@@ -19,3 +19,4 @@ Dummy::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
+end
