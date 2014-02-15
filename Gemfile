@@ -12,7 +12,7 @@ gem "surveyor"
 
 gem 'rails', '3.2.8'
 
-gem 'mysql2'
+gem 'pg'
 
 
 #gem "mongo_mapper"
@@ -23,12 +23,13 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 
 # Using sqlite for development.  Obviously not a great idea in the real world
-group :development, :test do
- gem 'mysql2'
+#group :development, :test 
+ #gem 'pg'
  #gem 'activerecord-mysql2-adapter'
-end
+#end
+
 group :production do
-  gem 'mysql2'
+  gem 'pg'
 end
 
 
