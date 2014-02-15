@@ -34,12 +34,12 @@
   host: 127.0.0.1
  # socket: /tmp/mysql.sock
 
-# production:
- # adapter: postgresql
- # encoding: utf8
-  #database: mxitapp_production
-  #pool: 5
- # username: sfladmin
- # password: Forgiven7
+ production:
+  adapter: postgresql
+ encoding: utf8
+  database: mxitapp_production
+  pool: 5
+  username: sfladmin
+  password: Forgiven7
   #socket: /tmp/mysql.sock
   
