@@ -10,9 +10,9 @@ gem "surveyor"
 #require 'mongo'
 #source 'http://gemcutter.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.8' 
 
-#gem 'pg'
+gem 'pg'
 
 #group :production do
   # gems specifically for Heroku go here
