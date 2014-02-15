@@ -21,17 +21,17 @@ gem 'heroku'
 
 gem 'bcrypt-ruby', '~> 3.0.0'
 
-=begin
+
 # Using sqlite for development.  Obviously not a great idea in the real world
 group :development, :test do
- gem 'pg'
+ gem 'mysql2'
  #gem 'activerecord-mysql2-adapter'
 end
 group :production do
-  gem 'pg'
+  gem 'mysql2'
 end
 
-=end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -72,4 +72,7 @@ gem 'thin'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-ruby "1.9.3"
+gem 'rails_12factor', group: :production
+
+ruby "2.0.0"
+

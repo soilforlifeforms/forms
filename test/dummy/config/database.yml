@@ -1,9 +1,4 @@
-# SQLite version 3.x
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'mysql2'
-#gem 'pg'
+ #gem 'mysql2'
 
 development:
   adapter: mysql2
@@ -12,7 +7,7 @@ development:
   pool: 5
   username: root
   password: treedrop1598
-  socket: /tmp/mysql.sock
+  #socket: /tmp/mysql.sock
  
   #username: mxitapp
   #password: Forgiven7
@@ -29,7 +24,7 @@ test:
   pool: 5
   username: root
   password: treedrop1598
-  socket: /tmp/mysql.sock
+ # socket: /tmp/mysql.sock
 
 production:
   adapter: mysql2
@@ -38,4 +33,5 @@ production:
   pool: 5
   username: root
   password: treedrop1598
-  socket: /tmp/mysql.sock
+  #socket: /tmp/mysql.sock
+  
