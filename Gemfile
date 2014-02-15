@@ -28,9 +28,9 @@ gem 'bcrypt-ruby', '~> 3.0.0'
  #gem 'activerecord-mysql2-adapter'
 #end
 
-group :production do
-  gem 'pg'
-end
+#group :production do
+#  gem 'pg'
+#end
 
 
 
