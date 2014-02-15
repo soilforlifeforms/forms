@@ -5,7 +5,7 @@
   username: sfladmin
   pool: 5
   password: Forgiven7
-  host: 127.0.0.1
+  #host: 127.0.0.1
 
 #development:
   #adapter: pg

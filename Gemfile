@@ -14,7 +14,6 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 
-
 #gem "mongo_mapper"
 
 gem 'heroku'
