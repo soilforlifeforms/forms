@@ -16,4 +16,4 @@ applications:
     instances: 1
     services:
       forms_database:
-        type: mysql
+        type: postgreSQL
