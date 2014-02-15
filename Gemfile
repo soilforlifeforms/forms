@@ -14,10 +14,10 @@ gem 'rails', '3.2.8'
 
 #gem 'pg'
 
-group :production do
+#group :production do
   # gems specifically for Heroku go here
-  gem "pg"
-end
+  #gem "pg"
+#end
 
 
 #gem "mongo_mapper"
