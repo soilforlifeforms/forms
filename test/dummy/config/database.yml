@@ -37,7 +37,7 @@
  production:
   adapter: postgresql
  encoding: utf8
-  database: mxitapp_production
+  database: mxit_app_production
   pool: 5
   username: sfladmin
   password: Forgiven7
