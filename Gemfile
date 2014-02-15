@@ -12,7 +12,7 @@ gem "surveyor"
 
 gem 'rails', '3.2.8'
 
-gem 'pg'
+#gem 'pg'
 
 #gem "mongo_mapper"
 
