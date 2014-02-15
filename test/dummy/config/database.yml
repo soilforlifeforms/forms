@@ -39,7 +39,7 @@
   encoding: utf8
   database: desmevjohug1g6
   user: lbvltvnswnpkiu
-  Password: U6tyPNjrvLt9ZbkJtdsreZJS3O
+  password: U6tyPNjrvLt9ZbkJtdsreZJS3O
   port: 5432
   pool: 5
   host: ec2-54-197-251-18.compute-1.amazonaws.com
