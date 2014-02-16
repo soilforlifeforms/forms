@@ -4,13 +4,22 @@ development:
   username: sfladmin
   password: Forgiven7
   database: mxit_app_development
+  pool: 5
 
 production:
   adapter: postgresql
   encoding: unicode
   database: appname_production
   pool: 5
-  password:
+  username: sfladmin
+  password: Forgiven7
+
+test:
+  adapter: postgresql
+  username: sfladmin
+  password: Forgiven7
+  database: mxit_app_development
+  pool: 5
 
 
  #development:
