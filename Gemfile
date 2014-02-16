@@ -53,7 +53,7 @@ gem 'cloudfoundry-jquery-rails'
 gem 'thin'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+#gem 'capistrano', '~> 3.1.0'
 
 # To use debugger
 # gem 'debugger'
@@ -69,4 +69,5 @@ gem 'thin'
 gem 'rails_12factor', group: :production
 
 ruby "2.0.0"
+
 
