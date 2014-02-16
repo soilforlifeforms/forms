@@ -1,7 +1,8 @@
 development:
   adapter: postgresql
   host: localhost
-  username: 
+  username: sfladmin
+  password: Forgiven7
   database: mxit_app_development
 
 production:
@@ -29,7 +30,7 @@ production:
  # username: template1
   #password: 
   #socket: /tmp/mysql.sock
- 
+
   #username: mxitapp
   #password: XXXXX
   #pool: 5
@@ -58,8 +59,7 @@ production:
  # sslmode: require
   #pool: 5
 
-  
+
   #encoding: utf8
  # password: 
 
-  
