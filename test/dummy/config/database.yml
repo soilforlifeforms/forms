@@ -5,6 +5,13 @@ development:
   password: Forgiven7
   database: mxit_app_development
 
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: appname_production
+  pool: 5
+  password:
+
 
  #development:
  # adapter: postgresql
