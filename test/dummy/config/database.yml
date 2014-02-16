@@ -6,11 +6,11 @@ development:
   database: mxit_app_development
 
 production:
-  adapter: postgresql
-  encoding: unicode
+ # adapter: postgresql
+  #encoding: unicode
   database: mxit_app_production
-  pool: 5
-  password:
+  #pool: 5
+  #password:
 
 
  #development:
