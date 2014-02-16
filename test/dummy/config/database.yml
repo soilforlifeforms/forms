@@ -1,32 +1,22 @@
 development:
   adapter: postgresql
   host: localhost
-  username: sfladmin
-  password: Forgiven7
+  username: 
   database: mxit_app_development
-  pool: 5
 
-production:
+  production:
   adapter: postgresql
   encoding: unicode
-  database: appname_production
+  database: mxit_app_production
   pool: 5
-  username: sfladmin
-  password: Forgiven7
-
-test:
-  adapter: postgresql
-  username: sfladmin
-  password: Forgiven7
-  database: mxit_app_development
-  pool: 5
+  password:
 
 
  #development:
  # adapter: postgresql
  # encoding: unicode
  # database: mxit_app_development
-  #Username: sfladmin
+  #Username: sfladminXXXXXXXXXXXXXXXX
  # pool: 5
  # password: 
  # host: 127.0.0.1
@@ -54,7 +44,7 @@ test:
  # database: mxit_app_test
  # pool: 5
   #username: sfladmin
-  #password: XXX
+  #password: FXXXX
  # host: 127.0.0.1
   #socket: /tmp/mysql.sock
 
