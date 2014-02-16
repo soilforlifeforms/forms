@@ -6,7 +6,7 @@ development:
   database: mxit_app_development
 
 production:
- # adapter: postgresql
+  adapter: postgresql
   #encoding: unicode
   database: mxit_app_production
   #pool: 5
