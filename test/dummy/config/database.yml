@@ -1,14 +1,14 @@
-development:
-  adapter: postgresql
-  host: localhost
-  username: sfladmin
-  password: Forgiven7
-  database: mxit_app_development
+#development:
+ # adapter: postgresql
+  #host: localhost
+ # username: sfladmin
+ #password: Forgiven7
+ # database: mxit_app_development
 
-production:
-  adapter: postgresql
+#production:
+  #adapter: postgresql
   #encoding: unicode
-  database: mxit_app_production
+  #database: mxit_app_production
   #pool: 5
   #password:
 
