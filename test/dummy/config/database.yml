@@ -13,7 +13,6 @@ test:
 
 production:
   adapter: postgresql
-  host: localhost
   encoding: unicode
   database: mxit_app
   pool: 5
