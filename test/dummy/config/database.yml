@@ -14,11 +14,12 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: mxit_app
+  database: dc3q9m7vsffo67
   pool: 5
   usename: jjteorbhzlgrxh
   password: Fdzfae1BcuD5CyGk7KT8xUwDJ0
-  host: ec2-54-197-240-180.compute-1.amazonaws.com:5432/dc3q9m7vsffo67
+  host: ec2-54-197-240-180.compute-1.amazonaws.com
+  port: 5432
 
 
 
