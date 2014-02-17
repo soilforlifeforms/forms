@@ -1,3 +1,37 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mxit_app_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mxit_app_test
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: mxit_app_production
+  pool: 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #development:
  # adapter: postgresql
   #host: localhost

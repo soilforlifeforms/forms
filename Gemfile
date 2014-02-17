@@ -39,6 +39,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+#group :development do
+  #gem 'capistrano-rails', '~> 1.0.0'
+#end
+
 #gem 'jquery-rails'
 gem 'cloudfoundry-jquery-rails'
 
@@ -69,5 +73,6 @@ gem 'thin'
 gem 'rails_12factor', group: :production
 
 ruby "2.0.0"
+
 
 
