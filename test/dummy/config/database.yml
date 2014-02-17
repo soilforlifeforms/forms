@@ -11,4 +11,11 @@ test:
   database: mxit_app_test
   pool: 5
 
-# for heroku we do not need production
+production:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: mxit_app
+  pool: 5
+
+
